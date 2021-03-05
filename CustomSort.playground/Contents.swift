@@ -21,4 +21,4 @@ func bubbleSort(array: inout Array<Int>)-> Array<Int>{
 }
 
 var testArr = [1,6,5,2,4]
-print("Final - \(bubbleSort(array: &testArr))")
+print("Result - \(bubbleSort(array: &testArr))")
